@@ -1,0 +1,69 @@
+body {
+  background: #f4f4f4;
+}
+
+/* CARD */
+.poke-card {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  animation: fadeIn 0.4s ease;
+}
+
+.poke-card img {
+  width: 80px;
+}
+
+.poke-card h5 {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* TIPOS */
+.type {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  color: white;
+  margin: 2px;
+}
+
+.type.fire {
+  background: #f08030;
+}
+.type.water {
+  background: #6890f0;
+}
+.type.grass {
+  background: #78c850;
+}
+.type.electric {
+  background: #f8d030;
+  color: #000;
+}
+.type.poison {
+  background: #a040a0;
+}
+.type.bug {
+  background: #a8b820;
+}
+.type.flying {
+  background: #a890f0;
+}
+.type.normal {
+  background: #a8a878;
+}
+
+/* ANIMACIÓN */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
