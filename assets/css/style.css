@@ -2,13 +2,28 @@ body {
   background: #f4f4f4;
 }
 
+.project-description {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 14px;
+}
+
 /* CARD */
 .poke-card {
   background: white;
   border-radius: 10px;
   padding: 10px;
   text-align: center;
+  max-width: 160px;
+  margin: 0 auto;
   animation: fadeIn 0.4s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.poke-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.12);
 }
 
 .poke-card img {
@@ -16,8 +31,8 @@ body {
 }
 
 .poke-card h6 {
-  margin: 5px 0;
   font-size: 14px;
+  margin: 6px 0;
 }
 
 /* TIPOS */
@@ -26,35 +41,15 @@ body {
   padding: 4px 8px;
   border-radius: 6px;
   font-size: 11px;
-  color: white;
+  color: #fff;
   margin: 2px;
 }
 
-.type.fire {
-  background: #f08030;
-}
-.type.water {
-  background: #6890f0;
-}
-.type.grass {
-  background: #78c850;
-}
-.type.electric {
-  background: #f8d030;
-  color: #000;
-}
-.type.poison {
-  background: #a040a0;
-}
-.type.bug {
-  background: #a8b820;
-}
-.type.flying {
-  background: #a890f0;
-}
-.type.normal {
-  background: #a8a878;
-}
+.type.fire { background: #f08030; }
+.type.water { background: #6890f0; }
+.type.grass { background: #78c850; }
+.type.electric { background: #f8d030; color: #000; }
+.type.poison { background: #a040a0; }
 
 /* FOOTER */
 .footer {
@@ -75,42 +70,4 @@ body {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.footer {
-  background: #222;
-  color: #ccc;
-  padding: 25px 15px;
-  text-align: center;
-  font-size: 13px;
-}
-
-.footer-content p {
-  margin: 6px 0;
-}
-
-.footer-course {
-  color: #fff;
-  font-weight: 600;
-}
-
-.footer-api span {
-  color: #9ad1ff;
-}
-
-.footer-author span {
-  font-size: 12px;
-  color: #aaa;
-}
-
-.project-description {
-  background: #ffffff;
-  border-radius: 10px;
-  padding: 20px;
-  font-size: 14px;
-  color: #333;
-}
-
-.project-description strong {
-  color: #000;
 }
