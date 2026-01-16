@@ -2,6 +2,7 @@ body {
   background: #f4f4f4;
 }
 
+/* DESCRIPCIÓN */
 .project-description {
   background: #fff;
   border-radius: 10px;
@@ -15,15 +16,7 @@ body {
   border-radius: 10px;
   padding: 10px;
   text-align: center;
-  max-width: 160px;
-  margin: 0 auto;
   animation: fadeIn 0.4s ease;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.poke-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.12);
 }
 
 .poke-card img {
@@ -31,8 +24,8 @@ body {
 }
 
 .poke-card h6 {
-  font-size: 14px;
   margin: 6px 0;
+  font-size: 14px;
 }
 
 /* TIPOS */
@@ -41,7 +34,7 @@ body {
   padding: 4px 8px;
   border-radius: 6px;
   font-size: 11px;
-  color: #fff;
+  color: white;
   margin: 2px;
 }
 
@@ -49,14 +42,13 @@ body {
 .type.water { background: #6890f0; }
 .type.grass { background: #78c850; }
 .type.electric { background: #f8d030; color: #000; }
-.type.poison { background: #a040a0; }
 
 /* FOOTER */
 .footer {
   background: #222;
   color: #ccc;
   text-align: center;
-  padding: 20px;
+  padding: 25px;
   font-size: 13px;
 }
 
