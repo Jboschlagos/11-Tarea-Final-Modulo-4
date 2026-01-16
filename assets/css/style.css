@@ -15,9 +15,9 @@ body {
   width: 80px;
 }
 
-.poke-card h5 {
-  font-size: 14px;
+.poke-card h6 {
   margin: 5px 0;
+  font-size: 14px;
 }
 
 /* TIPOS */
@@ -56,6 +56,15 @@ body {
   background: #a8a878;
 }
 
+/* FOOTER */
+.footer {
+  background: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  font-size: 13px;
+}
+
 /* ANIMACIÓN */
 @keyframes fadeIn {
   from {
@@ -66,4 +75,42 @@ body {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.footer {
+  background: #222;
+  color: #ccc;
+  padding: 25px 15px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.footer-content p {
+  margin: 6px 0;
+}
+
+.footer-course {
+  color: #fff;
+  font-weight: 600;
+}
+
+.footer-api span {
+  color: #9ad1ff;
+}
+
+.footer-author span {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.project-description {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+.project-description strong {
+  color: #000;
 }
